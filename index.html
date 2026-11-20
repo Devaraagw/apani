@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#030306">
+  <title>Happy Birthday Cilvy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="scene" aria-label="Birthday animation for Cilvy">
+    <canvas id="birthdayCanvas" aria-hidden="true"></canvas>
+
+    <div class="greeting" id="greeting" aria-live="polite">
+      <span id="message"></span><span class="cursor" aria-hidden="true"></span>
+    </div>
+
+    <button class="sound-toggle" id="soundToggle" type="button" aria-label="Turn birthday music on">
+      <span class="sound-icon" aria-hidden="true">♫</span>
+      <span id="soundLabel">Tap for music</span>
+    </button>
+    <p class="hint" id="musicHint">The animation is ready · tap anywhere to start the music</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
